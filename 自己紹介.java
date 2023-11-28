@@ -14,14 +14,17 @@
 // ・出力は 3 行でおこなってください
 // ・出力の各行は 1000 文字以内で出力してください
 
-public class SelfIntroduction {
+// GPT compilation error
+    //Main.java:1: error: class SelfIntroduction is public, should be declared in a file named SelfIntroduction.java
+//public class SelfIntroduction {
+public class Main {
     public static void main(String[] args) {
         String name = "山田";
         String language = "Java";
         String hitokoto = "プログラミングが大好き";
 
         System.out.println("name: " + name);
-        System.out.println("language: " + laguange);
+        System.out.println("language: " + language);
         System.out.println("hitokoto: " + hitokoto);
     }
 }
