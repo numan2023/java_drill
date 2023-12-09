@@ -45,7 +45,7 @@ Int n = sc.next();
 
 // 模範解答
 import java.util.*;
-public lass Main {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = Integer.parseInt(sc.nextLine());
